@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MarketManagment.Classes
+namespace ex1
 {
     public class Client
     {
@@ -9,6 +9,6 @@ namespace MarketManagment.Classes
         public string Pren_Cl { get; set; }
         public string Ville_Cl { get; set; }
         public Int64 Tel_Cl { get; set; }
-        public Int64 Carte { get; set; }
+        public Client() { }
     }
 }
